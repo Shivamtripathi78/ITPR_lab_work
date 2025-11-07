@@ -33,7 +33,7 @@ public class VotingEligibilityChecker {
     }
 }
 
-// Custom Exception (moved below)
+// Custom Exception
 class NotEligibleForVotingException extends Exception {
     public NotEligibleForVotingException(String message) {
         super(message);
